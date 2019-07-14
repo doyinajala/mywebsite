@@ -1,0 +1,72 @@
+.mustard {
+    font-style: oblique;
+}
+
+        /* body, html{
+            height: 100%;
+            margin: 0;
+        } */
+   
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+          }
+        .bounce{
+            padding-bottom: 50%;
+          }
+
+          .fa{
+            padding: 10px;
+            font-size: 20px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 5px;
+        }
+        .fa:hover{
+            opacity: 0.7;
+        }
+        .fa-twitter {
+            background:#55acee;
+            color: white;
+        }
+        .fa-instagram{
+            background: #cc3366;
+            color:white;
+        }
+        .fa-linkedin{
+            background: #007bb5;
+            color: white;
+        }
+
+
+          .affix {
+            background-color: #eee;
+            -webkit-transition:padding 0.2s ease-out;
+            -moz-transition:padding 0.2s ease-out;  
+            -o-transition:padding 0.2s ease-out;         
+            transition:padding 0.2s ease-out;
+          }
+          
+          @media (min-width:768px) {
+              .affix-top {
+                /* navbar style at top */
+                background-color:transparent;
+                border-color:transparent;
+                padding: 15px;
+                -webkit-transition:all 0.5s ease;
+                -moz-transition:all 0.5s ease; 
+                -o-transition:all 0.5s ease;         
+                transition:all 0.5s ease;  
+              }
+          }
+          
+          nav .navbar-nav .nav-link,
+          nav .navbar-brand {
+             color: #fffff0;
+          }
+          
+         .doyin{
+             height:100%;
+         }
+          
